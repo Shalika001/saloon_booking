@@ -1,0 +1,32 @@
+body{
+    background-image: url('../images/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+  
+}
+.menu{
+    backdrop-filter: blur(60px) !important;
+    list-style: none;
+    float: right;
+    margin-top:10px;
+    margin-right:5%;
+    padding: 25px;
+    box-shadow: 5px 10px rgba(0,0,0,0.3);
+
+}
+.menu li{
+    font-size: 25px;
+    color: palevioletred;
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+}
+.navbar {
+}
+
+.menu li:hover{
+ background-color: dimgrey;
+ color: cornflowerblue;
+ box-shadow: 5px 10px rgba(0, 0, 0, 0.7);
+
+}
